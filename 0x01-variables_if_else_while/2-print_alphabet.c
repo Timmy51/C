@@ -8,5 +8,5 @@ include <stdio.h>
 int main(void)
 {
 putchar(abcdefghijklmnopqrstuvwxyz);
-return (0)
+return (0);
 }

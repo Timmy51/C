@@ -7,6 +7,8 @@ include <stdio.h>
 
 int main(void)
 {
-putchar(abcdefghijklmnopqrstuvwxyz);
+char alp = "abcdefghijklmnopqrstuvwxyz";
+for (alp = '1'; alp <= '26'; alp++)
+putchar(alp);
 return (0);
 }

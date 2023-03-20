@@ -10,7 +10,7 @@ char alp[26]="abcdefghijklmnopqrstuvwxyz";
 int i;
 for (i = 0; i < 26; i++)
 {
-if (i != 5 && !=17)
+if (i != 5 && i != 17)
 {
 putchar(alp[i]);
 }

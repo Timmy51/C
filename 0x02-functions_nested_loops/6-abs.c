@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _abs; prinyts the absolute value of any integer
+ * _abs - prinyts the absolute value of any integer
  * Return: ALways 0 Success
  * @n: any integer
  */

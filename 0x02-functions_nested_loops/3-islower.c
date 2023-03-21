@@ -5,7 +5,7 @@
  */
 int _islower(int c)
 {
-int result
+int result;
 if (c = 97; c <= 122; i++)
 result = 1;
 else 

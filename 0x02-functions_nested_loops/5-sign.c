@@ -15,11 +15,12 @@ result = 1;
 else
 if (n < 0)
 {
-_putchar(-45);
+_putchar(45);
 result = -1;
 }
 else if (n == 0)
 _putchar(48);
 result = 0;
+_putchar('\n')
 return (result);
 }

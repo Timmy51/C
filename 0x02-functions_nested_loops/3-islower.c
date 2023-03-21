@@ -3,7 +3,7 @@
  * _islower - checks for lowercase
  * Return: Result
  * parameter: integer
- * c: parameter
+ * @c: parameter
  */
 int _islower(int c)
 {

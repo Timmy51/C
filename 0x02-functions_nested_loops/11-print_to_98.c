@@ -5,7 +5,7 @@
  * Return: void
  */
 void print_to_98(int n)
-{
-for (n <= 98, n++)
-write(n, );
+while (n < 98)
+do write(n, );
+n++;
 }

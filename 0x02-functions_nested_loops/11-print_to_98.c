@@ -6,7 +6,6 @@
  */
 void print_to_98(int n)
 {
-for (n <= 98)
-printf(n, )
-n++;
+for (n <= 98, n++)
+write(n, );
 }

@@ -6,7 +6,7 @@
 int _islower(int c)
 {
 int result;
-if (c = 97; c <= 122; i++)
+if (c = 97; c <= 122; c++)
 result = 1;
 else 
 result = 0;

@@ -6,7 +6,6 @@
  */
 int print_sign(int n)
 {
-int result;
 if (n > 0)
 {
 _putchar(43);
@@ -18,12 +17,10 @@ if (n < 0)
 _putchar(45);
 result = -1;
 }
-else if
+else
 {
-(n == 0)
 _putchar(48);
 result = 0;
 }
 _putchar('\n');
-return (result);
 }

@@ -2,13 +2,12 @@
 /**
  * _abs; prinyts the absolute value of any integer
  * Return: ALways 0 Success
- * @int: any integer
+ * @n: any integer
  */
-int _abs(int)
+int _abs(int n)
 {
-int n;
 if (n >= 0)
-return (n)
+return (n);
 else
-return (n * -1)
+return (n * -1);
 }

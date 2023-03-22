@@ -5,11 +5,11 @@
  */
 void times_table(void)
 {
-int a = 48, b;
-while (a <= 57)
+int a = 0, b;
+while (a <= 9)
 {
-b = 48;
-while (b <= 57)
+b = 0;
+while (b <= 9)
 {
 _putchar((a * b)+48);
 b++;

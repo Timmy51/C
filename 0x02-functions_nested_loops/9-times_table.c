@@ -11,7 +11,7 @@ while (a <= 57)
 b = 48;
 while (b <= 57)
 {
-_putchar((a * b) + 48);
+_putchar((a * b)+48);
 b++;
 _putchar('\n');
 a++;

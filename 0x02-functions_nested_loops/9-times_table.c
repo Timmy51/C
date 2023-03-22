@@ -5,9 +5,13 @@
  */
 void times_table(void)
 {
-int a, b;
-while ((a = 0 && a <= 9; a++) && (b = 0 && b <= 9; b++))
+int a = 0, b;
+while ((a <= 9)
 {
-_putchar(a * b, );
+b = 0;
+while (b <= 9)
+{
+_putchar(a * b)
+}
 }
 }

@@ -13,7 +13,7 @@ while (b <= 9)
 {
 _putchar(a * b);
 b++;
-_putchar(\n)
+_putchar('\n');
 a++;
 }
 }

@@ -6,12 +6,12 @@
 void times_table(void)
 {
 int a = 0, b;
-while ((a <= 9)
+while (a <= 9)
 {
 b = 0;
 while (b <= 9)
 {
-_putchar(a * b)
+_putchar(a * b);
 }
 }
 }

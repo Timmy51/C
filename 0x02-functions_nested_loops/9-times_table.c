@@ -11,7 +11,7 @@ while (a <= 9)
 b = 0;
 while (b <= 9)
 {
-_putchar(a * b);
+write('a * b, ');
 }
 }
 }

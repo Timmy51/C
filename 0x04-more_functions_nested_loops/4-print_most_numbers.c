@@ -2,7 +2,6 @@
 /**
  * print_most_numbers - prints 0 to 9 without 2 and 4
  * @c: variable for the character to be checked
- * Return: Always 0 success
  */
 
 void print_most_numbers(void)

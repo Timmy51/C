@@ -9,9 +9,9 @@ int j;
 
 while (i < 10)
 {
-for (j = '0'; j <= '14'; j++)
+for (j = 0; j <= 14; j++)
 {
-_putchar(j);
+_putchar(j + '0');
 }
 _putchar('\n');
 i++;

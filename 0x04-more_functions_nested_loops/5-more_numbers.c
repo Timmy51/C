@@ -9,7 +9,7 @@ int j;
 
 while (i < 10)
 {
-for (j = 0; j <= 14; j++)
+for (j = '0'; j <= '14'; j++)
 {
 _putchar(j);
 }

@@ -11,7 +11,7 @@ while (i < 10)
 {
 for (j = 0; j <= 14; j++)
 {
-_putchar(j + '0');
+_putchar(j + 48);
 }
 _putchar('\n');
 i++;

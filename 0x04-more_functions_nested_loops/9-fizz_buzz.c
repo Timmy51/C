@@ -7,6 +7,7 @@ int main(void)
 {
 int n = 1;
 while (n < 101)
+{
 if (n % 3 == 0)
 printf("Fizz");
 else if (n % 5 == 0)
@@ -17,5 +18,7 @@ else
 printf("%d", n);
 
 printf(" ");
+n++;
+}
 return (0);
 }

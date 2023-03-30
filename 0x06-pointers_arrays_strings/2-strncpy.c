@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * *_strncpy - a function that concatenates strings
+ * _strncpy - a function that concatenates strings
  * @dest: a pointer variable dest
- * @src:
+ * @src: a pointer variable src
  * @n: an integer variable n
  * Return: a character.
  */
@@ -15,6 +15,6 @@ while(i < n && src[i] != 0)
 i++;
 }
 while (i < n)
-dest[i] = 0
+dest[i] = 0;
 return (dest);
 }

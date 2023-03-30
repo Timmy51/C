@@ -2,7 +2,7 @@
 /**
  * cap_string - Capitalizes all the characters of a string
  * Return: a character
- * @s: a pointer variable 
+ * @s: a pointer variable
  */
 
 char *cap_string(char *s)

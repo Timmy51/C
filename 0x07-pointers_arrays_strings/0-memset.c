@@ -17,5 +17,5 @@ _putchar(b);
 }
 char **j;
 j = &s;
-return(j);
+return (j);
 }

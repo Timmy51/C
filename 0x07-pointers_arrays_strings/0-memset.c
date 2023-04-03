@@ -4,6 +4,7 @@
  * @s: a pointer variable
  * @b: a character variable
  * @n: an unsugned integer
+ * Return: a poimter to s
  */
 
 char *_memset(char *s, char b, unsigned int n)
@@ -14,7 +15,7 @@ for (i <= *s + n)
 {
 _putchar(b);
 }
-int **j;
+char **j;
 j = &s;
 return(j);
 }

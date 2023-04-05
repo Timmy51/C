@@ -17,7 +17,12 @@ return (-1);
 }
 return (_actual_recursion(n, 0));
 }
-
+/**
+ * _actual_recursion - the function where recursion occurs
+ * @n: an integer parameter
+ * @i: an integer parameter
+ * Return: the root
+ */
 int _actual_recursion(int n, int i)
 {
 if (i * i == n)

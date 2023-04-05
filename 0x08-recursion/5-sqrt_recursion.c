@@ -2,6 +2,7 @@
 /**
  * _sqrt_recursion - finds the square root of a number
  * @n: an integer variable n
+ * @i: an integer parameter
  * Return: the square root
  */
 
@@ -18,11 +19,11 @@ return (_actual_recursion(n, 0));
 
 int _actual_recursion(int n, int i)
 {
-if (i *i == n)
+if (i * i == n)
 {
 return (i);
 }
-if (i *i > n)
+if (i * i > n)
 {
 return (-1);
 }

@@ -6,12 +6,24 @@
  */
 int _sqrt_recursion(int n)
 {
-int i = 0;
-i++;
+if (n < 0)
+{
+return (-1)
+}
+_actual_recursion(n, 0);
+return (i);
+}
+
+int _actual_recursion(int n, int i)
+{
+int i;
 if (i *i == n)
 {
 return (i);
+return (_actual_recursion(n, i + 1));
 }
-else
+if (i *i > n)
+{
 return (-1);
+}
 }

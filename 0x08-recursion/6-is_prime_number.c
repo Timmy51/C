@@ -1,10 +1,8 @@
 #include "main.h"
 /**
  * _is_prime_number  - finds a prime number
- * _actual_recursion - the function where recursion is used
  * @n: an integer variable n
- * @i: an integer parameter
- * Return: the square root
+ * Return: 1 or 0
  */
 int _is_prime_number(int n)
 {

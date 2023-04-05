@@ -6,7 +6,7 @@
  * @i: an integer parameter
  * Return: the square root
  */
-int _int_prime_number(int n)
+int _is_prime_number(int n)
 {
 if (n % 2 != 0 && n % 3 != 0 && n % 5 != 0 && n % 7 != 0)
 {

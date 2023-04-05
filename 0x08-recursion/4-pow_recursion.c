@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _pow_recursion - a function that returns the value of x raised to the power of y
+ * _pow_recursion - a function that finds exponentials
  * @x: an integer variable x
  * @y: an integer variable y
  * Return: x raised to the power of y
@@ -15,7 +15,7 @@ else if (y == 0)
 {
 return (1);
 }
-else if(y == 1)
+else if (y == 1)
 {
 return (x);
 }

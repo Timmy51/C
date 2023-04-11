@@ -2,23 +2,29 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * _strdup - returns a pointer to a newly allocated space
- * @str: a character variable
- * Return: char
+ * _strdup - returns a pointer
+ * @str: a pointer variable
+ * Return: a pointer variable
  */
 char *_strdup(char *str)
 {
-char i;
-char *str2;
-for (i = 0; str2[i] != '\0'; i++)
-{	
-str2[i] = str[i];
-}
-str2 = malloc(sizeof(char) * 7);
-if (str == NULL || str2 == NULL)
+int i, j;
+char *str1;
+if (str == NULL)
 {
 return (NULL);
 }
-free(str2);
-return (str2);
+i = 0;
+while (str[i] == '\0')
+i++;
+str1 = malloc((i + 1) * sizeof(char));
+if (str1 == NULL)
+{
+return (NULL);
+}
+for(j = 0; str1[j]; j++)
+{
+str1[j] = str[j];
+}
+return (str1);
 }

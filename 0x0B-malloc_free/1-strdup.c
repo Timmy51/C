@@ -22,7 +22,7 @@ if (str1 == NULL)
 {
 return (NULL);
 }
-for (j = 0; str1[j]; j++)
+for (j = 0; str[j]; j++)
 {
 str1[j] = str[j];
 }

@@ -18,5 +18,9 @@ if (size == 0)
 return (NULL);
 }
 return (ptr);
+if (ptr == NULL)
+{
+_putchar(0);
+}
 free(ptr);
 }

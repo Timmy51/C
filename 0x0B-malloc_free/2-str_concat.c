@@ -32,16 +32,17 @@ if (s3 == NULL)
 {
 return (NULL);
 }
+i = j = 0;
 while (s1[i] != '\0')
 {
-s3[i] = s1[i];		
-i++;		
+s3[i] = s1[i];
+i++;
 }
 while (s2[j] != '\0')
-{		
-s3[i] = s2[j];		
+{
+s3[i] = s2[j];
 i++, j++;
-}		
+}
 s3[i] = '\0';
 return (s3);
 }

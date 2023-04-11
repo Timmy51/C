@@ -15,7 +15,7 @@ if (str == NULL)
 return (NULL);
 }
 i = 0;
-while (str[i] == '\0')
+while (str[i] != '\0')
 i++;
 str1 = malloc((i + 1) * sizeof(char));
 if (str1 == NULL)

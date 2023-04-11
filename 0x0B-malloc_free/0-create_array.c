@@ -12,15 +12,15 @@ char *create_array(unsigned int size, char c)
 char *ptr;
 int n = size;
 ptr = malloc(n * sizeof(char));
+if (ptr == NULL)
+{
+_putchar(0);
+}
 *ptr = c;
 if (size == 0)
 {
 return (NULL);
 }
 return (ptr);
-if (ptr == NULL)
-{
-_putchar(0);
-}
 free(ptr);
 }

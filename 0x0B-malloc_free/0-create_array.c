@@ -17,7 +17,7 @@ if (ptr == NULL)
 _putchar(0);
 return ("1");
 }
-*ptr = c;
+ptr[n - 1] = c;
 if (size == 0)
 {
 return (NULL);

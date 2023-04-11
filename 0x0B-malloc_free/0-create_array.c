@@ -15,6 +15,7 @@ ptr = malloc(n * sizeof(char));
 if (ptr == NULL)
 {
 _putchar(0);
+return ("1");
 }
 *ptr = c;
 if (size == 0)

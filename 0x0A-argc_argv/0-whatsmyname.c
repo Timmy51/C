@@ -7,9 +7,8 @@
  * @argv:argument vector
  * Return: 0 Success
  */
-int main(int argc, char *argv[])
+int main(int __attribute__((unused)) argc, char *argv[])
 {
-UNUSED(argc);
 printf("%s", argv[0]);
 return (0);
 }

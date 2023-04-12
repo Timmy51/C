@@ -9,7 +9,7 @@
  */
 int main(int __attribute__((unused)) argc, char *argv[])
 {
-_putchar (*argv[0]);
+printf("%s\n", *argv);
 return (0);
 }
 

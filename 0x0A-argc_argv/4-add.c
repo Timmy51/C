@@ -16,7 +16,8 @@ printf("0\n");
 }
 for (i = 1; i < argc; i++)
 {
-printf("%d\n", sum + atoi(argv[i]));
+sum += atoi(argv[i]);
 }
+printf("%d\n", sum);
 return (0);
 }

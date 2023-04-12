@@ -16,11 +16,6 @@ printf("0\n");
 }
 for (i = 1; i < argc; i++)
 {
-if (!isdigit(argv[i]))
-{
-printf("Error\n")
-return (1);
-}
 printf("%d\n", sum + atoi(argv[i]));
 }
 return (0);

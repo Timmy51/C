@@ -19,7 +19,7 @@ j = max - min + 1;
 ptr = malloc(sizeof(int) * j);
 if (ptr == NULL)
 {
-return (NULL);	
+return (NULL);
 }
 for (i = 0; min <= max; i++)
 {

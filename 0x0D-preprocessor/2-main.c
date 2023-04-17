@@ -2,7 +2,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - a function thats prints the current file
+ * main - prints the name of the current file
+ * Return: Always 0 (Success)
  */
-printf("File: %s\n", __FILE__);
+int main(void)
+{
+printf("%s\n", __FILE__);
+return (0);
+}
 

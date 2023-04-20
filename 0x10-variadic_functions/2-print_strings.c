@@ -20,7 +20,7 @@ if (value == NULL)
 value = "nil";
 }
 printf("%s", value);
-if (i != (n - 1) || sepearator != NULL)
+if (i != (n - 1) || separator != NULL)
 printf("%s", separator);
 }
 printf("\n");

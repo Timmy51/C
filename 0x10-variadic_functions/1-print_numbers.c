@@ -14,11 +14,9 @@ va_start(args, n);
 for (i = 0; i < n; i++)
 {
 value = va_arg(args, unsigned int);
-if (separator == NULL)
-{
 printf("%d", value);
-}
-printf("%d%s", value, separator);
+if (separator != NULL)
+printf("%s", separator);
 }
 printf("\n");
 va_end(args);

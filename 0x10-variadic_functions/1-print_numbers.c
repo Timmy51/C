@@ -18,7 +18,7 @@ if (separator == 0)
 {
 printf("%d\n", value);
 }
-printf("%d %s\n", value, separator);
+printf("%d%s\n", value, separator);
 }
 va_end(args);
 }

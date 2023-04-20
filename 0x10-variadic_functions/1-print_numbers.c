@@ -14,7 +14,7 @@ va_start(args, n);
 for (i = 0; i < n; i++)
 {
 value = va_arg(args, unsigned int);
-if (separator == 0)
+if (separator == NULL)
 {
 printf("%d", value);
 }

@@ -16,9 +16,10 @@ for (i = 0; i < n; i++)
 value = va_arg(args, unsigned int);
 if (separator == 0)
 {
-printf("%d\n", value);
+printf("%d", value);
 }
-printf("%d%s\n", value, separator);
+printf("%d%s", value, separator);
 }
+printf("\n");
 va_end(args);
 }

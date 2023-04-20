@@ -19,11 +19,10 @@ if (value == NULL)
 {
 value = "nil";
 }
-if (separator == 0)
-{
-printf("%s\n", value);
+printf("%s", value);
+if (i != (n - 1) || sepearator != NULL)
+printf("%s", separator);
 }
-printf("%s %s\n", value, separator);
-}
+printf("\n");
 va_end(args);
 }

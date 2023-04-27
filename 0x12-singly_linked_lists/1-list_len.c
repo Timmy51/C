@@ -3,12 +3,12 @@
 #include <stdlib.h>
 
 /**
- * print_list - prints a linked list
+ * list_len - length of linked list
  * @h: a pointer to the list
- * Return: a struct
+ * Return: the length
  */
 
-size_t print_list(const list_t *h)
+size_t list_len(const list_t *h)
 {
 size_t i = 0;
 while (h)

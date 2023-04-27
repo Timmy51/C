@@ -15,9 +15,9 @@ while (h)
 {
 if (h->str == NULL)
 {
-printf("[0] (nil)");
+printf("[0] (nil)\n");
 }
-printf("[%d] %s", h->len, h->str);
+printf("[%u] %s\n", h->len, h->str);
 h = h->next;
 i++;
 }
